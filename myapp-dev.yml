@@ -3,5 +3,3 @@ app:
   features:
     auth: true
     version: v1
-server:
-  port: 8081
