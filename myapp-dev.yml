@@ -1,5 +1,0 @@
-app:
-  name: myapp
-  features:
-    auth: true
-    version: v1

@@ -1,8 +1,19 @@
 app:
-  PORT: 8083
-  DB_HOST: localhost
-  DB_PORT: 3306
-  DB_DATABASE: blog_auth_db
-  DB_USER: root
-  DB_PASSWORD: root
-  DB_ROOT_PASSWORD: root
+  environment:
+    PORT: 8083
+    # db
+    DB_HOST: localhost
+    DB_PORT: 3306
+    DB_DATABASE: blog_auth_db
+    DB_USER: root
+    DB_PASSWORD: root
+    DB_ROOT_PASSWORD: root
+    # jwt
+    ACCESS_TOKEN_DURATION: 15m
+    REFRESH_TOKEN_DURATION: 24h
+    # redis
+    REDIS_ADDR: localhost:6379
+    REDIS_PASSWORD: ""
+    REDIS_DB: 0
+server:
+  port: 8083
