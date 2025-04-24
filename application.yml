@@ -1,2 +1,4 @@
-server:
-  port: 8081
+PRIVATE_KEY_PATH: /home/lesytruong/projects/Noddit/server/keys/private.pem
+PUBLIC_KEY_PATH: /home/lesytruong/projects/Noddit/server/keys/public.pem
+BRAC_URL: /home/lesytruong/projects/Noddit/server/rbac-config/rbac_model.conf
+
