@@ -1,0 +1,22 @@
+server:
+  port: 8761
+
+routes:
+  - id: product-service
+    uri: lb://product-service
+    filters:
+      - DedupeResponseHeader=Vary
+    predicates:
+      - Path=/api/v1/products/**
+
+  - id: cart-service
+    uri: lb://cart-service
+    predicates:
+      - Path=/api/v1/carts/**
+
+  - id: auth-service
+    uri: lb://auth-service
+    filters:
+      - DedupeResponseHeader=Vary
+    predicates:
+      - Path=/api/v1/auth/**
