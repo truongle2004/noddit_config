@@ -3,11 +3,10 @@ app:
     PORT: 8083
     # db
     DB_HOST: localhost
-    DB_PORT: 3306
-    DB_NAME: blog_auth_db
-    DB_USER: root
+    DB_PORT: 5432
+    DB_NAME: noddit_auth
+    DB_USER: postgres
     DB_PASSWORD: root
-    DB_ROOT_PASSWORD: root
     # jwt
     ACCESS_TOKEN_DURATION: 15m
     REFRESH_TOKEN_DURATION: 24h
