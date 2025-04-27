@@ -3,4 +3,7 @@ app:
     PRIVATE_KEY_PATH: /home/lesytruong/projects/Noddit/server/keys/private.pem
     PUBLIC_KEY_PATH: /home/lesytruong/projects/Noddit/server/keys/public.pem
     RBAC_PATH: /home/lesytruong/projects/Noddit/server/rbac-config/rbac_model.conf
-
+    DB_HOST: localhost
+    DB_PORT: 5432
+    DB_USER: postgres
+    DB_PASSWORD: root
