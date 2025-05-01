@@ -7,9 +7,6 @@ app:
     # jwt
     ACCESS_TOKEN_DURATION: 15m
     REFRESH_TOKEN_DURATION: 24h
-    # redis
-    REDIS_ADDR: localhost:6379
-    REDIS_PASSWORD: ""
-    REDIS_DB: 0
+
 server:
   port: 8083
