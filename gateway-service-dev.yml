@@ -1,8 +1,4 @@
 app:
-  environment:
-    REDIS_ADDR: localhost:6379
-    REDIS_PASSWORD: ""
-    REDIS_DB: 0
   routes:
     auth-service: http://localhost:8083
     profile-service: http://localhost:8084
