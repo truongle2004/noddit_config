@@ -1,10 +1,7 @@
 app:
   environment:
-    PORT: 8083
-    # db
     DB_NAME: noddit_auth
     DB_CASBIN_NAME: noddit_casbin
-    # jwt
     ACCESS_TOKEN_DURATION: 15m
     REFRESH_TOKEN_DURATION: 24h
 
