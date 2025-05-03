@@ -2,5 +2,6 @@ app:
   routes:
     auth-service: http://localhost:8083
     profile-service: http://localhost:8084
+    subnoddit-service: http://localhost:9000
 server:
   port: 8081
