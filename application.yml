@@ -7,6 +7,6 @@ app:
     DB_PORT: 5432
     DB_USER: postgres
     DB_PASSWORD: root
-    REDIS_ADDR: redis:6379
+    REDIS_ADDR: localhost:6379
     REDIS_PASSWORD: ""
     REDIS_DB: 0
