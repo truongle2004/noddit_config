@@ -1,9 +1,2 @@
 server:
   port: 8090
-app:
-  environment:
-    DB_HOST: localhost
-    DB_PORT: 5432
-    DB_NAME: noddit_notification_config
-    DB_USER: postgres
-    DB_PASSWORD: root
